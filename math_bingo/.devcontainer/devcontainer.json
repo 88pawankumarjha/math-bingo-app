@@ -1,0 +1,9 @@
+{
+  "name": "Flutter Dev",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:7.0",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/java:1": { "version": "17" }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}
